@@ -1,0 +1,109 @@
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--Yellow);
+}
+
+.container{
+    max-width: 100%;
+    min-height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartao{
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: white;
+    width: 306px;
+    box-shadow: 8px 8px;
+}
+
+.container .cartao img{
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+
+/* primeira elemento */
+.descricao :first-child{
+    background-color: var(--Yellow);
+    width: 4rem;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+/* .descricao .Learning{
+    /* background-color: var(--Yellow);
+    /* width: 4rem;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 10px; 
+}*/
+
+/* publicacao data - segundo elemento */
+
+.descricao :nth-child(2){
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+/* .publicacao{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}*/
+
+.titulo{
+    font-size: 19px;
+    font-weight: 800;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+
+.titulo:hover{
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+/* quarto elemento */
+.descricao :nth-child(4){
+    color: var(--Gray);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+/*.descricao-cartao{
+     color: var(--Gray);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 5px; 
+}*/
+
+.criator{
+    display: flex;
+    align-items: center;
+}
+
+.criator img{
+    width: 25px;
+    padding-top: 9px;
+}
+
+.criator p{
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 8px;
+}
+
+
+
+
+
