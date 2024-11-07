@@ -10,7 +10,7 @@ Projeto feito com HTML & CSS
 
 ## Dificuldades
 
-No início, tive uma pequena dificuldade em alinhamento com o flex e as transições de cor de alguns elementos, porém depois fui resolvendo e utilizando bem as propriedades do flex e propriedades de estilização. Ótimo projeto para se realizar de início sozinho.
+No início, tive uma pequena dificuldade em alinhamento com o flex e as transições de cor de alguns elementos, porém depois fui resolvendo e utilizando bem as propriedades do flex e propriedades de estilização, fui testando tambem os conceitos de pai para filho do css para diminuir a quantidades de classes no html. Ótimo projeto para se realizar de início sozinho.
 
 ### Tecnologia Ultilizadas
 - HTML 
